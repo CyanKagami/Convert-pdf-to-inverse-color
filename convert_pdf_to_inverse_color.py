@@ -1,6 +1,6 @@
 import os
 import shutil
-from pdf2image import convert_from_path
+from pdf2image import convert_from_path # need to install popler
 try:
     from PIL import Image
 except ImportError:
